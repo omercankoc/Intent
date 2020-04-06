@@ -32,8 +32,8 @@ class MainActivity : AppCompatActivity() {
         /*
         * Intent, uygulama bileşenleri arasında veri alışverişini ve bilgi aktarımını sağlayan bir haberleşme nesnesidir.
         * Bu nesne Android uygulamalarının vazgeçilmez bir bileşenidir.
-        * Bir Activity‘ den başka bir Activity‘ e geçişi sağlayan veya bilgi aktarımını yapan bu Intent nesnesidir.
-        * Nesne olmasının sebebi Intent sınıfından üretilerek kullanılmasından dolayıdır.
+        * Bir Activity‘den başka bir Activity‘e geçişi sağlayan veya bilgi aktarımını yapan bu Intent nesnesidir.
+        * Nesne olmasının sebebi, Intent sınıfından üretilerek kullanılmasıdır.
          */
 
         // Intent nesnesi oluştur.
