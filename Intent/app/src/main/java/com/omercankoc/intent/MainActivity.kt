@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onClickNext(view : View){
-
         /*
         * Intent, uygulama bileşenleri arasında veri alışverişini ve bilgi aktarımını sağlayan bir haberleşme nesnesidir.
         * Bu nesne Android uygulamalarının vazgeçilmez bir bileşenidir.
@@ -38,6 +37,7 @@ class MainActivity : AppCompatActivity() {
 
         // Intent nesnesi oluştur.
         val intent = Intent(applicationContext,NextActivity::class.java)
+        
         // Name ve Surname alanlarinin "null" kontrolunu yap.
         if(editTextName!!.text.toString()!="" && editTextSurname!!.text.toString()!=""){
 
