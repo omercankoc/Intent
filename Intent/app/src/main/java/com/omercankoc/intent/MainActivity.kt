@@ -66,10 +66,12 @@ class MainActivity : AppCompatActivity() {
             alert.setPositiveButton("Yes"){dialog, which ->
                 val restartIntent = Intent(applicationContext,MainActivity::class.java)
                 startActivity(restartIntent)
+                finish()
             }
             // Alert Dialog "NO" operasyonu icerigini olustur.
             alert.setNegativeButton("No"){dialog, which ->
                 super.onDestroy()
+                finish()
             }
             // Alert Dialog'u goster.
             alert.show()
