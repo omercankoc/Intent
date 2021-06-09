@@ -1,5 +1,5 @@
 ## Intent
-An intent is an abstract description of an operation to be performed. It can be used with startActivity to launch an Activity, broadcastIntent to send it to any interested BroadcastReceiver components, and Context.startService(Intent) or Context.bindService(Intent, ServiceConnection, int) to communicate with a background Service.
+An intent is an abstract description of an operation to be performed. It can be used with startActivity to launch an android.app.Activity, broadcastIntent to send it to any interested BroadcastReceiver components, and android.content.Context#startService or android.content.Context#bindService to communicate with a background android.app.Service.
 
 An Intent provides a facility for performing late runtime binding between the code in different applications. Its most significant use is in the launching of activities, where it can be thought of as the glue between activities. It is basically a passive data structure holding an abstract description of an action to be performed.
 
