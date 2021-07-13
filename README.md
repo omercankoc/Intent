@@ -3,20 +3,20 @@ An Intent in the Android operating system is a software mechanism that allows us
 
 An Intent is basically a passive data structure holding an abstract description of an action to be performed.
 
-Create Intent Object:
+### Create Intent Object:
 ```kotlin
 val intent = Intent(applicationContext,NextActivity::class.java)
 ```
-Creation of data held in Key-Value type and sent to other Activities:
+### Creation of data held in Key-Value type and sent to other Activities:
 ```kotlin
 intent.putExtra("name",editTextName!!.text.toString())
 intent.putExtra("surname",editTextSurname!!.text.toString())
 ```
-Start Intent:
+### Start Intent:
 ```kotlin
 startActivity(intent)
 ```
-Get data sent from another event:
+### Get data sent from another event:
 ```kotlin
 val intent = intent
 var name : String = intent.getStringExtra("name")
